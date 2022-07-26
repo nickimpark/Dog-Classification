@@ -8,22 +8,6 @@ Microservice at: https://dog-classification-nickimpark.herokuapp.com/
 
 This project is aimed at creating a microservice for classifying dogs by breeds. The EfficientNet-B0 Model was trained on ImageWoof2-320 Dataset and has 74.42% validation accuracy.
 
-Model metrics (from model_eval.py):
-* **Validation accuracy: 74.42%**
-* Precision for class Australian terrier: 73.22%
-* Precision for class Beagle: 63.40%
-* Precision for class Border terrier: 77.31%
-* Precision for class Dingo: 75.61%
-* Precision for class English foxhound: 50.89%
-* Precision for class Golden retriever: 75.56%
-* Precision for class Old English sheepdog: 79.15%
-* Precision for class Rhodesian ridgeback: 79.90%
-* Precision for class Samoyed: 87.65%
-
-The worst performance is on class English foxhound. One of the reasons for this could be the fact that there were the least number of images of this class in the training set. Also, the cause of errors can be the presence in the training and validation sets of images in which, in addition to the dog, there are many extra objects.
-
-The metrics could have been better if a more complex model had been chosen, but this requires significant computational resources. If you test the model on an image that clearly has a dog in it, you will rarely see mispredictions.
-
 Project repository contains:
 * config.py - congiguration file
 * flask-app.py - flask app
@@ -44,6 +28,25 @@ or
 pip install -r requirements_cuda.txt -f https://download.pytorch.org/whl/torch_stable.html
 ```
 if you want to use CUDA.
+
+## Model Performance
+
+Model metrics (from model_eval.py):
+* **Validation accuracy: 74.42%**
+* Precision for class Australian terrier: 73.22%
+* Precision for class Beagle: 63.40%
+* Precision for class Border terrier: 77.31%
+* Precision for class Dingo: 75.61%
+* Precision for class English foxhound: 50.89%
+* Precision for class Golden retriever: 75.56%
+* Precision for class Old English sheepdog: 79.15%
+* Precision for class Rhodesian ridgeback: 79.90%
+* Precision for class Samoyed: 87.65%
+
+The worst performance is on class English foxhound. One of the reasons for this could be the fact that there were the least number of images of this class in the training set. Also, the cause of errors can be the presence in the training and validation sets of images in which, in addition to the dog, there are many extra objects.
+
+The metrics could have been better if a more complex model had been chosen, but this requires significant computational resources. **If you test the model on an image that clearly has a dog in it, you will rarely see mispredictions.**
+
 
 ## QuickStart with Docker
 
