@@ -6,7 +6,7 @@ Microservice at: https://dog-classification-nickimpark.herokuapp.com/
 
 ## About
 
-This project was aimed at creating a microservice for classifying dogs by breeds. The EfficientNet-B0 Model was trained on ImageWoof2-320 Dataset and has 74.42% validation accuracy.
+This project is aimed at creating a microservice for classifying dogs by breeds. The EfficientNet-B0 Model was trained on ImageWoof2-320 Dataset and has 74.42% validation accuracy.
 
 Project repository contains:
 * config.py - congiguration file
