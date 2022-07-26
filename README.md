@@ -17,7 +17,7 @@ Project repository contains:
 * telegram_bot.py - script for telegram bot (add your token and run)
 * train.py - model training script, model will be available at ./models/
 
-Stack: Flask, PyTorch
+Stack: Python 3.9, Flask, PyTorch
 
 Don't forget about **requirements.txt** file:
 ```
