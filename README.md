@@ -4,6 +4,8 @@
 
 Microservice at: https://dog-classification-nickimpark.herokuapp.com/
 
+The microservice is hosted on Heroku, so if there were no requests for a long time, you will have to wait up to a minute before the application starts.
+
 ## About
 
 This project is aimed at creating a microservice for classifying dogs by breeds. The EfficientNet-B0 Model was trained on ImageWoof2-320 Dataset and has 74.42% validation accuracy.
