@@ -9,7 +9,7 @@ Microservice at: https://dog-classification-nickimpark.herokuapp.com/
 This project is aimed at creating a microservice for classifying dogs by breeds. The EfficientNet-B0 Model was trained on ImageWoof2-320 Dataset and has 74.42% validation accuracy.
 
 Model metrics (from model_eval.py):
-* Validation accuracy: 74.42%
+* **Validation accuracy: 74.42%**
 * Precision for class Australian terrier: 73.22%
 * Precision for class Beagle: 63.40%
 * Precision for class Border terrier: 77.31%
@@ -21,6 +21,8 @@ Model metrics (from model_eval.py):
 * Precision for class Samoyed: 87.65%
 
 The worst performance is on class English foxhound. One of the reasons for this could be the fact that there were the least number of images of this class in the training set.
+
+The metrics could have been better if a more complex model had been chosen, but this requires significant computational resources.
 
 Project repository contains:
 * config.py - congiguration file
