@@ -1,5 +1,9 @@
 # Dog-Classification
 
+## Demo
+
+Microservice at: https://dog-classification-nickimpark.herokuapp.com/
+
 ## QuickStart with Docker
 
 Clone repository:
@@ -14,3 +18,7 @@ Run docker:
 ```
 docker run dog-classification
 ```
+
+## About
+
+This project was aimed at creating a microservice for classifying dogs by breeds.
