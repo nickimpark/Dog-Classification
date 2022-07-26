@@ -4,7 +4,7 @@
 
 Microservice at: https://dog-classification-nickimpark.herokuapp.com/
 
-The microservice is hosted on Heroku, so if there were no requests for a long time, you will have to wait up to a minute before the application starts.
+The app is hosted on Heroku, so if there were no requests for a long time, you will have to wait up to a minute before the application starts.
 
 ## About
 
