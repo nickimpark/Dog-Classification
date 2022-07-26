@@ -3,5 +3,9 @@
 ## QuickStart with Docker
 
 ```
-code block
+docker build -t dog-classification .
+```
+
+```
+docker run dog-classification
 ```
