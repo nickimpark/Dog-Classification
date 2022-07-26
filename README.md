@@ -45,7 +45,7 @@ Model metrics (from model_eval.py):
 
 The worst performance is on class English foxhound. One of the reasons for this could be the fact that there were the least number of images of this class in the training set. Also, the cause of errors can be the presence in the training and validation sets of images in which, in addition to the dog, there are many extra objects.
 
-The metrics could have been better if a more complex model had been chosen, but this requires significant computational resources. **If you test the model on an image that clearly has a dog in it, you will rarely see mispredictions.**
+The metrics could have been better if a more complex model had been chosen, but this requires significant computational resources. **If you test the model on images that clearly show the dog, you will rarely see incorrect predictions.**
 
 
 ## QuickStart with Docker
